@@ -1,0 +1,105 @@
+** start of undefined **
+
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Bird Info Request</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+    <div class="form-header"><h1 id="title">Bird Information Request</h1>
+    <p id="description">Please enter all your questions about birds</p>
+    </div>
+    <form id="survey-form">
+      <label for="name" id="name-label" ><span>Name</span><input id="name" type="text"
+      placeholder="Enter your name here." required />
+      </label><label for="email" id="email-label"><span>Email</span><input id="email" type="email" placeholder="Enter your Email here." required />
+      </label><label for="number" id="number-label"><span>Number</span><input id="number" type="number" placeholder="Enter your number here." min="1" max="10" /></label>
+
+      <div><div>Option</div><select id="dropdown" name="dropdown">
+        <option>-- Select an option --</option>
+        <option value="1">Option 1</option>
+        <option value="2"> Option 2</option>
+      </select></div>
+
+      <div class="bird-group">
+        Bird type
+        <div><input type="radio" name="bird-type" value="migratory" />Migratory</div>
+        <div><input type="radio" name="bird-type" value="non-migratory" />Non-Migratory</div>
+      </div>
+
+      <div class="check-group">
+        <div>Checkboxes</div>
+        <div><input type="checkbox" name="check" value="1">1</div>
+        <div><input type="checkbox" name="check" value="2">2</div>
+        <div><input type="checkbox" name="check" value="3">3</div>
+      </div>
+      
+      <div>
+        <div>Comments</div>
+        <textarea placeholder="Additional comments"></textarea>
+      </div>
+
+      <button id="submit">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+label {
+  display: block;
+  margin-bottom: 2rem;
+  font-family: Helvetica;
+}
+
+label > span {
+  display: block;
+}
+
+.bird-group, .check-group, .submit {
+  margin-top: 2rem;
+  font-family: Helvetica;
+}
+
+body {
+   background-image: linear-gradient(
+      135deg,
+      rgba(78, 122, 86, 0.6),
+      rgba(95, 158, 106, 0.5)
+    ),
+    url(https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+
+#container {
+  width: 400px;
+  margin: 5rem auto 0 auto;
+}
+
+.form-header {
+  text-align: center;
+  color: white;
+}
+
+#description {
+  font-family: Helvetica;
+  font-style: italic;
+}
+
+#title {
+  font-family: Helvetica;
+}
+
+#survey-form {
+  color: white;
+  font-family: Helvetica;
+}
+
+
+** end of undefined **
+

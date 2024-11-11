@@ -1,0 +1,27 @@
+#img-caption {
+    display: block;
+    color: blue;
+    font-size: .90em;
+    font-family: Helvetica;
+  }
+  
+  #img-div {
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    display: block;
+    font-family: helvetica;
+  }
+  
+  #tribute-info {
+    font-family: helvetica;
+  }
